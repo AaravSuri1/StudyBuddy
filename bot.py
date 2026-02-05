@@ -8,8 +8,8 @@ from PIL import Image
 # ======================
 # CONFIG
 # ======================
-BOT_TOKEN = "os.environ.get("BOT_TOKEN")"
-OPENAI_API_KEY = "os.environ.get("OPENAI_API_KEY")"
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 ADMIN_ID = 123456789  # <-- PUT YOUR TELEGRAM USER ID
 
 bot = telebot.TeleBot(BOT_TOKEN)
