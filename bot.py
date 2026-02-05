@@ -1,3 +1,6 @@
+import os
+from telegram import Update
+from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters
 import telebot
 from telebot import types
 from openai import OpenAI
